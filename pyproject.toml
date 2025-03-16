@@ -1,0 +1,31 @@
+# flame/pyproject.toml
+[build-system]
+requires = ["setuptools>=61.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "flame-core"
+version = "0.1.0"
+description = "A lightweight asynchronous task flow framework"
+readme = "README.md"
+authors = [{name = "lingdubing", email = "3189377462@qq.com"}]
+license = {file = "LICENSE"}
+requires-python = ">=3.8"
+dependencies = [
+    "sentence-transformers>=3.4.1",
+    "tiktoken>=0.9.0",
+    "numpy>=2.2.3",
+    "scikit-learn>=1.6.1",
+    "qdrant-client>=1.13.3",
+]
+
+[project.optional-dependencies]
+dev = [
+    "pytest>=8.3.5",
+    "pytest-asyncio>=0.25.3",
+    "loguru>=0.7.3",
+]
+
+[project.urls]
+Homepage = "https://github.com/lingdubing-xo/flame"
+Repository = "https://github.com/lingdubing-xo/flame.git"
