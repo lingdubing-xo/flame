@@ -1,3 +1,6 @@
+![Flame Core Logo](https://cdn.statically.io/gh/lingdubing-xo/lingdubing-xo-pic/main/img/Leonardo_Anime_XL_Background_image_of_a_compA_simplified_clust_2.jpg "Flame Core Logo")
+
+
 #### DESC
 flame-core是一个**轻量级、高效的异步任务流**框架，
 旨在简化复杂异步任务的调度和管理。
@@ -36,7 +39,7 @@ pip install flame-core
 ```python
 import asyncio
 from typing import List
-from flame-core import SignHub, Workflow, SemanticTextSplitter
+from flame_core import SignHub, Workflow, SemanticTextSplitter
 
 async def split_text_task(text: str) -> List[str]:
     splitter = SemanticTextSplitter(max_sentences=2, max_tokens=1000, semantic=True)
