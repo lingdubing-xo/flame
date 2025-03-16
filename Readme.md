@@ -35,6 +35,7 @@ pip install flame-core
 #### Quick start
 ```python
 import asyncio
+from typing import List
 from flame-core import SignHub, Workflow, SemanticTextSplitter
 
 async def split_text_task(text: str) -> List[str]:

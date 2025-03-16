@@ -5,7 +5,7 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "flame-core"
-version = "0.1.1"
+version = "0.1.2"
 description = "A lightweight asynchronous task flow framework"
 readme = "README.md"
 authors = [{name = "lingdubing", email = "3189377462@qq.com"}]
