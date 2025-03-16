@@ -4,7 +4,7 @@ from typing import Iterable, List, AsyncIterable, Optional
 import tiktoken
 import numpy as np
 from sklearn.cluster import KMeans
-from src.core.weapons.context_model import ContextModelBase
+from core.weapons.context_model import ContextModelBase
 
 class SemanticTextSplitter:
     def __init__(
